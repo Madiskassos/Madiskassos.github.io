@@ -1,0 +1,70 @@
+body {
+     background-image: url("goupille b.png");
+  background-repeat: no-repeat;
+  background-position: center;
+
+  
+}
+
+
+ #accueil
+ {
+    color: white;
+    text-align: center;
+ }
+
+ #titre
+ {
+    color: white;
+text-align: center;
+font-family: monospace, lucida console; 
+    border-style: double;
+    border-color:    #3664E9;
+
+ }
+
+#sommaire
+{
+
+ 
+    border: 3px   #3664E9 ridge;
+  background-color: none;
+  padding-top: 10px
+  padding-right: 10px;
+  padding-bottom: 500px;
+  padding-left: 10px;
+  width: 225px;
+  color: whitesmoke;
+text-align: center;
+text-decoration-line: underline;
+font-family: monospace, lucida console; 
+
+}
+
+#chaine{
+    color: white;
+    text-align: left;
+    font-family: monospace, lucida console; 
+    text-decoration: underline;
+}
+
+<div class="spinner"></div>
+
+<style>
+.spinner {
+   width: 56px;
+   height: 56px;
+   border: 11.2px #000000 double;
+   border-left-style: solid;
+   border-radius: 50%;
+   animation: spinner-aib1d7 0.75s infinite linear;
+}
+
+@keyframes spinner-aib1d7 {
+   to {
+      transform: rotate(360deg);
+   }
+}
+
+
+</style>
